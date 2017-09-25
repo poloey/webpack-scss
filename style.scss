@@ -1,0 +1,53 @@
+body {
+  background: #eee;
+  width: 80%;
+  margin: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+//practicing for loop
+$tw: #41b7d8;
+$fb: #3b5997;
+$gp: #d64937;
+$in: #0073b2;
+
+$colors : $tw, $fb, $gp, $in;
+
+// @for $i from 1 through length($colors) {
+//   li:nth-child(#{length($colors)}n + #{$i}) {
+//     background: nth($colors, $i);
+//     color: lighten(nth($colors, $i), 30%);
+//   }
+// }
+
+//practicing each loop
+
+$socials: (tw, $tw), (fb, $fb), (gp, $gp), (in, $in);
+
+@each $sm, $color in $socials {
+  li.#{$sm} {
+    background-color: $color;
+    float: left;
+    transition: all .2s;
+    font-family: 'Fira code';
+    font-size: 0;
+    margin: 0;
+    a {
+      color: lighten($color, 40%);
+      font-size: 16px;
+      text-decoration: none;
+      padding: 10px;
+      display: block;
+      transition: all .2s;
+      &:hover {
+        background-color: darken($color, 10%);
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+

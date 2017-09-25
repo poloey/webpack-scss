@@ -2,3 +2,79 @@ body {
   background: #eee;
   width: 80%;
   margin: auto; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+li.tw {
+  background-color: #41b7d8;
+  float: left;
+  transition: all .2s;
+  font-family: 'Fira code';
+  font-size: 0;
+  margin: 0; }
+  li.tw a {
+    color: #eaf7fb;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: all .2s; }
+    li.tw a:hover {
+      background-color: #279ebf;
+      transform: scale(1.1); }
+
+li.fb {
+  background-color: #3b5997;
+  float: left;
+  transition: all .2s;
+  font-family: 'Fira code';
+  font-size: 0;
+  margin: 0; }
+  li.fb a {
+    color: #bac8e4;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: all .2s; }
+    li.fb a:hover {
+      background-color: #2d4372;
+      transform: scale(1.1); }
+
+li.gp {
+  background-color: #d64937;
+  float: left;
+  transition: all .2s;
+  font-family: 'Fira code';
+  font-size: 0;
+  margin: 0; }
+  li.gp a {
+    color: #f9e3e0;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: all .2s; }
+    li.gp a:hover {
+      background-color: #b53525;
+      transform: scale(1.1); }
+
+li.in {
+  background-color: #0073b2;
+  float: left;
+  transition: all .2s;
+  font-family: 'Fira code';
+  font-size: 0;
+  margin: 0; }
+  li.in a {
+    color: #7fd2ff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: all .2s; }
+    li.in a:hover {
+      background-color: #00527f;
+      transform: scale(1.1); }

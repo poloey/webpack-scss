@@ -2,7 +2,7 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 
 module.exports = {
-  entry: ['./index.js', './dhaka.scss'],
+  entry: ['./index.js', './style.scss'],
   output: {
     path: __dirname,
     filename: 'budle.js'
